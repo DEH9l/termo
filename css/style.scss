@@ -1,11 +1,25 @@
 @import "bootstrap.css";
 
+.termo__example {
+  span{
+   font-size: 25px;
+    color: #C39423;
+  }
+  .termo-example__img {
+    opacity: 50%;
 
-
-.termo-example__item{
-    &:hover{
-      img{
-        width: 150%;
-      }
+    &:hover {
+      opacity: 100%;
+      transition: 1s;
     }
+  }
+}
+@media screen and(max-width: 768px){
+  .termo__example {
+    .termo-example__img {
+      opacity: 100%;
+
+    }
+  }
+
 }
