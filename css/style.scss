@@ -1,0 +1,11 @@
+@import "bootstrap.css";
+
+
+
+.termo-example__item{
+    &:hover{
+      img{
+        width: 150%;
+      }
+    }
+}
