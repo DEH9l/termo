@@ -3,7 +3,9 @@
   font-size: 25px;
   color: #C39423; }
 .termo__example .termo-example__img {
-  opacity: 50%; }
+  opacity: 50%;
+  width: 320px;
+  max-width: 100%; }
   .termo__example .termo-example__img:hover {
     opacity: 100%;
     transition: 1s; }
