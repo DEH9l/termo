@@ -1,6 +1,7 @@
 @import "bootstrap.css";
 
 .termo__example {
+  margin: auto;
   span{
    font-size: 25px;
     color: #C39423;
@@ -9,7 +10,6 @@
     opacity: 50%;
     width: 320px;
     max-width: 100%;
-
     &:hover {
       opacity: 100%;
       transition: 1s;
