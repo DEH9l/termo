@@ -1,29 +1,37 @@
 @import "bootstrap.css";
 
+.termo{
+  border-bottom: 3px #C39423 dotted;
 .termo__example {
-  margin: auto;
-  span{
-   font-size: 25px;
+  text-align: center;
+  p {
+    font-size: 25px;
     color: #C39423;
   }
+
   .termo-example__img {
     opacity: 50%;
-    width: 320px;
-    max-width: 100%;
+    max-width: 600px;
+    width: 100%;
     &:hover {
       opacity: 100%;
       transition: 1s;
     }
   }
 }
-img{
-
-
+}
+.block-head{
+  font-size: 30px;
+  color: #C39423;
+  border: 2px solid black;
+  margin: 20px 0;
 }
 @media screen and(max-width: 768px){
   .termo__example {
     .termo-example__img {
       opacity: 100%;
+      max-width: 320px;
+      width: 100%;
 
     }
   }

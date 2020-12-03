@@ -1,17 +1,29 @@
 @import url(bootstrap.css);
-.termo__example span {
-  font-size: 25px;
-  color: #C39423; }
-.termo__example .termo-example__img {
-  opacity: 50%;
-  width: 320px;
-  max-width: 100%; }
-  .termo__example .termo-example__img:hover {
-    opacity: 100%;
-    transition: 1s; }
+.termo {
+  border-bottom: 3px #C39423 dotted; }
+  .termo .termo__example {
+    text-align: center; }
+    .termo .termo__example p {
+      font-size: 25px;
+      color: #C39423; }
+    .termo .termo__example .termo-example__img {
+      opacity: 50%;
+      max-width: 600px;
+      width: 100%; }
+      .termo .termo__example .termo-example__img:hover {
+        opacity: 100%;
+        transition: 1s; }
+
+.block-head {
+  font-size: 30px;
+  color: #C39423;
+  border: 2px solid black;
+  margin: 20px 0; }
 
 @media screen and (max-width: 768px) {
   .termo__example .termo-example__img {
-    opacity: 100%; } }
+    opacity: 100%;
+    max-width: 320px;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
